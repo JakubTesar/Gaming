@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Gaming.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BE564633-F75D-45A4-8AF7-91E989B20776}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Gaming.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GamingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9A6051E4-2AA4-4915-9F36-916F6679B260}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Gaming">
+      <UniqueIdentifier>{A9F6A9E8-5872-4D24-84A4-823F7571B18F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Gaming\Gaming.Build.cs">
+      <Filter>Source\Gaming</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Gaming\Gaming.cpp">
+      <Filter>Source\Gaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gaming\Gaming.h">
+      <Filter>Source\Gaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Gaming\GamingGameModeBase.cpp">
+      <Filter>Source\Gaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gaming\GamingGameModeBase.h">
+      <Filter>Source\Gaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Gaming\Hero.cpp">
+      <Filter>Source\Gaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gaming\Hero.h">
+      <Filter>Source\Gaming</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
