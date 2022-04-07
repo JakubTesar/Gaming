@@ -3,15 +3,29 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "Hero.generated.h"
 
 UCLASS()
 class GAMING_API AHero : public ACharacter
 {
 	GENERATED_BODY()
+	
 
 public:
+	UPROPERTY(EditAnywhere)
+	UCameraComponent* CameraComponent;
+
+	UPROPERTY(EditAnywhere)
+	USpringArmComponent* SpringArmComponent;
+
+	UPROPERTY(EditAnywhere)
+	float HP;
+	
+	UPROPERTY()
+	float DMG;
 	// Sets default values for this character's properties
 	AHero();
 
@@ -25,5 +39,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	void MoveForward(float Direction);
+	void MoveSideways(float Direction);	
+	void LeftClick();	
+	TArray<FHitResult> HitResults;
 
 };
