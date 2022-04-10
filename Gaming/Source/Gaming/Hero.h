@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Item.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -26,6 +27,16 @@ public:
 	
 	UPROPERTY()
 	float DMG;
+	
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+    bool bInventoryShow;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	UUserWidget* InventoryWidget;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	TArray<AItem*> Inventory;
+	
 	// Sets default values for this character's properties
 	AHero();
 
@@ -44,5 +55,4 @@ public:
 	void MoveSideways(float Direction);	
 	void LeftClick();	
 	TArray<FHitResult> HitResults;
-
 };

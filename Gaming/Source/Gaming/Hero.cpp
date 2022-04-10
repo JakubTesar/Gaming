@@ -3,6 +3,9 @@
 
 #include "Hero.h"
 
+#include "BasicEnemy.h"
+#include "DrawDebugHelpers.h"
+
 // Sets default values
 AHero::AHero()
 {
@@ -17,6 +20,7 @@ AHero::AHero()
 	CameraComponent->SetupAttachment(SpringArmComponent, USpringArmComponent::SocketName);
 	HP = 100;
 	DMG = 10; // Hand
+	
 }
 
 // Called when the game starts or when spawned
@@ -30,9 +34,10 @@ void AHero::BeginPlay()
 void AHero::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	FVector Location = GetActorLocation() + (GetActorForwardVector() * 100);
+	FVector Location = CameraComponent->GetComponentLocation() + (CameraComponent->GetForwardVector() * 100);
 	FVector ForwardVector = CameraComponent->GetForwardVector() * 10000;
-	
+	DrawDebugLine(GetWorld(), Location, ForwardVector, FColor::Blue, false
+		,-1, 0,5);
 	bool Result = GetWorld()->LineTraceMultiByChannel(
 		HitResults, Location, ForwardVector, ECC_GameTraceChannel1);
 }
@@ -56,14 +61,12 @@ void AHero::MoveSideways(float Direction){
 }
 void AHero::LeftClick(){
 	for (FHitResult HitResult : HitResults) {
-		/*ACube* Chest = Cast<ACube>(HitResult.GetActor());
-		if (Chest != nullptr) {
+		ABasicEnemy* Enemy = Cast<ABasicEnemy>(HitResult.GetActor());
+		if (Enemy != nullptr) {
 			FVector CubeLoc = HitResult.GetActor()->GetActorLocation();
 			FVector HitDir = CubeLoc - HitResult.ImpactPoint;
-			Chest->StaticMeshComponent->AddImpulse(HitDir*100000);
 			DrawDebugBox(GetWorld(), HitResult.ImpactPoint, FVector(4,4,4), FColor::Red, false, 1, 0, 1);
-			Chest->HP -= 50;
-			Chest->Die();
-		}*/
+			Enemy->HP -= 50;
+		}
 	}
 }

@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 	UPackage* Z_Construct_UPackage__Script_Gaming();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
+	GAMING_API UClass* Z_Construct_UClass_AItem_NoRegister();
 // End Cross Module References
 	void AHero::StaticRegisterNativesAHero()
 	{
@@ -41,6 +43,28 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArmComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArmComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HP;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DMG_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DMG;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bInventoryShow_MetaData[];
+#endif
+		static void NewProp_bInventoryShow_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInventoryShow;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InventoryWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InventoryWidget;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Inventory_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Inventory_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Inventory;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -72,9 +96,55 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent = { "SpringArmComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, SpringArmComponent), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_HP_MetaData[] = {
+		{ "Category", "Hero" },
+		{ "ModuleRelativePath", "Hero.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, HP), METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_HP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_HP_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_DMG_MetaData[] = {
+		{ "ModuleRelativePath", "Hero.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_DMG = { "DMG", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, DMG), METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_DMG_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_DMG_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_MetaData[] = {
+		{ "Category", "Hero" },
+		{ "ModuleRelativePath", "Hero.h" },
+	};
+#endif
+	void Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_SetBit(void* Obj)
+	{
+		((AHero*)Obj)->bInventoryShow = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow = { "bInventoryShow", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHero), &Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget_MetaData[] = {
+		{ "Category", "Hero" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Hero.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget = { "InventoryWidget", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, InventoryWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_Inventory_Inner = { "Inventory", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_Inventory_MetaData[] = {
+		{ "Category", "Hero" },
+		{ "ModuleRelativePath", "Hero.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_Inventory = { "Inventory", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, Inventory), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_Inventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_Inventory_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHero_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_CameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_HP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_DMG,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_Inventory_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_Inventory,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHero_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHero>::IsAbstract,
@@ -103,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHero, 1645184086);
+	IMPLEMENT_CLASS(AHero, 3638148157);
 	template<> GAMING_API UClass* StaticClass<AHero>()
 	{
 		return AHero::StaticClass();

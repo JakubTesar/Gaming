@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Gaming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{63306AD9-606A-45EE-8C4D-B8383393B2B2}</UniqueIdentifier>
+      <UniqueIdentifier>{8A912B18-BFB8-427F-BA42-0FABCBC81869}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Gaming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8316855F-7B99-48ED-8D3B-DB903C3B1843}</UniqueIdentifier>
+      <UniqueIdentifier>{0846A5A3-07BF-43B9-BE57-502D41BB088A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Gaming">
-      <UniqueIdentifier>{55C3B8CF-1E42-4BB4-963F-64F2EC8BE6B6}</UniqueIdentifier>
+      <UniqueIdentifier>{612339F7-B4A7-4159-A29C-2C147B83C713}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Gaming\BasicEnemy.cpp">
       <Filter>Source\Gaming</Filter>
@@ -54,6 +54,12 @@
       <Filter>Source\Gaming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Gaming\Hero.h">
+      <Filter>Source\Gaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Gaming\Item.cpp">
+      <Filter>Source\Gaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gaming\Item.h">
       <Filter>Source\Gaming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Gaming\NPC.cpp">

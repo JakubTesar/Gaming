@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasicEnemy, 3081516297);
+	IMPLEMENT_CLASS(ABasicEnemy, 788655510);
 	template<> GAMING_API UClass* StaticClass<ABasicEnemy>()
 	{
 		return ABasicEnemy::StaticClass();
