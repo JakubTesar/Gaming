@@ -1,4 +1,4 @@
-// PCH for E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\CoreUObjectSharedPCH.h
+// PCH for C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\CoreUObjectSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_GAME 1
 #define ENABLE_PGO_PROFILE 0
@@ -29,14 +29,14 @@
 #define WITH_PUSH_MODEL 0
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
-#define UE_LIVE_CODING_ENGINE_DIR "E:\\Unreal Engine\\UE_4.27\\Engine"
-#define UE_LIVE_CODING_PROJECT "E:\\GIthubE\\Gaming\\Gaming\\Gaming.uproject"
+#define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_4.27\\Engine"
+#define UE_LIVE_CODING_PROJECT "C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Gaming.uproject"
 #define UBT_MODULE_MANIFEST "UE4.modules"
 #define UBT_MODULE_MANIFEST_DEBUGGAME "UE4-Win64-DebugGame.modules"
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UE4"
-#define UE_ENGINE_DIRECTORY "../../../../../Unreal Engine/UE_4.27/Engine/"
+#define UE_ENGINE_DIRECTORY "../../../../../../../../Program Files/Epic Games/UE_4.27/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601
@@ -57,4 +57,4 @@
 #define WITH_MALLOC_STOMP 1
 #define CORE_API 
 #define TRACELOG_API 
-#include "E:/Unreal Engine/UE_4.27/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h"
+#include "C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h"

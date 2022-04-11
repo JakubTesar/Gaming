@@ -1,4 +1,4 @@
-// PCH for E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
+// PCH for C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_GAME 1
 #define ENABLE_PGO_PROFILE 0
@@ -34,7 +34,7 @@
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UE4"
-#define UE_ENGINE_DIRECTORY "../../../../../Unreal Engine/UE_4.27/Engine/"
+#define UE_ENGINE_DIRECTORY "../../../../../../../../Program Files/Epic Games/UE_4.27/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601
@@ -170,4 +170,4 @@
 #define AUDIOMIXER_API 
 #define TARGETPLATFORM_API 
 #define ANIMATIONCORE_API 
-#include "E:/Unreal Engine/UE_4.27/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
+#include "C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"

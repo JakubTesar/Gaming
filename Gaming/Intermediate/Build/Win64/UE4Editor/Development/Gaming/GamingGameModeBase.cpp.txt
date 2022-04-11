@@ -1,7 +1,7 @@
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\GamingGameModeBase.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\GamingGameModeBase.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\GamingGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\GamingGameModeBase.generated.h

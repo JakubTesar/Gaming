@@ -31,8 +31,7 @@ void AHero::BeginPlay()
 }
 
 // Called every frame
-void AHero::Tick(float DeltaTime)
-{
+void AHero::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 	FVector Location = CameraComponent->GetComponentLocation() + (CameraComponent->GetForwardVector() * 100);
 	FVector ForwardVector = CameraComponent->GetForwardVector() * 10000;
@@ -43,8 +42,7 @@ void AHero::Tick(float DeltaTime)
 }
 
 // Called to bind functionality to input
-void AHero::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
+void AHero::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("Forward", this, &AHero::MoveForward);
 	PlayerInputComponent->BindAxis("Sideways", this, &AHero::MoveSideways);
