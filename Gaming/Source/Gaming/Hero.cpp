@@ -20,6 +20,7 @@ AHero::AHero()
 	CameraComponent->SetupAttachment(SpringArmComponent, USpringArmComponent::SocketName);
 	HP = 100;
 	DMG = 10; // Hand
+	InventorySlots = 10;
 	
 }
 

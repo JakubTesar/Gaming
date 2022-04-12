@@ -22,10 +22,10 @@ public:
 	UPROPERTY(EditAnywhere)
 	USpringArmComponent* SpringArmComponent;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float HP;
 	
-	UPROPERTY()
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float DMG;
 	
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
@@ -36,6 +36,14 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	TArray<AItem*> Inventory;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	float InventorySlots;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	AItem* WeaponSlot;
+	
+	
 	
 	// Sets default values for this character's properties
 	AHero();
