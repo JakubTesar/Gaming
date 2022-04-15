@@ -14,6 +14,9 @@ class GAMING_API AItem : public AActor
 public:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	UTexture2D* Texture2D;
+	
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	UStaticMeshComponent* StaticMeshComponent;
 	// Sets default values for this actor's properties
 	AItem();
 
