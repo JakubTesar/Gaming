@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Item.h"
+#include "MyHUD.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -42,8 +43,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	AItem* WeaponSlot;
-	
-	
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	AHUD* MyHUD;
 	
 	// Sets default values for this character's properties
 	AHero();

@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	GAMING_API UClass* Z_Construct_UClass_AItem_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AHUD_NoRegister();
 // End Cross Module References
 	void AHero::StaticRegisterNativesAHero()
 	{
@@ -73,6 +74,10 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponSlot_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WeaponSlot;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyHUD_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyHUD;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -159,6 +164,13 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot = { "WeaponSlot", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, WeaponSlot), Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_MyHUD_MetaData[] = {
+		{ "Category", "Hero" },
+		{ "ModuleRelativePath", "Hero.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_MyHUD = { "MyHUD", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, MyHUD), Z_Construct_UClass_AHUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_MyHUD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_MyHUD_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHero_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_CameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent,
@@ -170,6 +182,7 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_Inventory,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_InventorySlots,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHero_Statics::NewProp_MyHUD,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHero_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHero>::IsAbstract,
@@ -198,7 +211,7 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHero, 3893515960);
+	IMPLEMENT_CLASS(AHero, 202469785);
 	template<> GAMING_API UClass* StaticClass<AHero>()
 	{
 		return AHero::StaticClass();

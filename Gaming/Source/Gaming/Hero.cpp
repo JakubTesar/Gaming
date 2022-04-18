@@ -5,6 +5,7 @@
 
 #include "BasicEnemy.h"
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AHero::AHero()
@@ -21,14 +22,13 @@ AHero::AHero()
 	HP = 100;
 	DMG = 10; // Hand
 	InventorySlots = 10;
-	
 }
 
 // Called when the game starts or when spawned
 void AHero::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	// MyHUD = Cast<AHUD>(UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetHUD());
 }
 
 // Called every frame

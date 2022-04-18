@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Gaming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8A912B18-BFB8-427F-BA42-0FABCBC81869}</UniqueIdentifier>
+      <UniqueIdentifier>{B1069043-1EF9-440A-A5BE-0154D3F13CEA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Gaming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0846A5A3-07BF-43B9-BE57-502D41BB088A}</UniqueIdentifier>
+      <UniqueIdentifier>{1B52E57C-138F-4D47-8F33-76B083B8A8D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Gaming">
-      <UniqueIdentifier>{612339F7-B4A7-4159-A29C-2C147B83C713}</UniqueIdentifier>
+      <UniqueIdentifier>{85E850DF-289F-4229-8BBF-9365306F560F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Gaming\BasicEnemy.cpp">
       <Filter>Source\Gaming</Filter>
@@ -60,6 +60,18 @@
       <Filter>Source\Gaming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Gaming\Item.h">
+      <Filter>Source\Gaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Gaming\Karel.cpp">
+      <Filter>Source\Gaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gaming\Karel.h">
+      <Filter>Source\Gaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Gaming\MyHUD.cpp">
+      <Filter>Source\Gaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Gaming\MyHUD.h">
       <Filter>Source\Gaming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Gaming\NPC.cpp">
