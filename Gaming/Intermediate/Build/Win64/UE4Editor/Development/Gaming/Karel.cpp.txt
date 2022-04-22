@@ -1,17 +1,17 @@
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\Karel.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\NPC.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\NPC.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Karel.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\Karel.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\NPC.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\NPC.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Karel.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

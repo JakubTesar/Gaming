@@ -1,36 +1,36 @@
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\Hero.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\Item.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Item.generated.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\MyHUD.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\MyHUD.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Hero.generated.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\BasicEnemy.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\NPC.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\NPC.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\BasicEnemy.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\Hero.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\Item.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Item.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\MyHUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\MyHUD.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Hero.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\BasicEnemy.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\NPC.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\NPC.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\BasicEnemy.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
