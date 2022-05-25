@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMING_MyHUD_generated_h
 
-#define Gaming_Source_Gaming_MyHUD_h_15_SPARSE_DATA
-#define Gaming_Source_Gaming_MyHUD_h_15_RPC_WRAPPERS
-#define Gaming_Source_Gaming_MyHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Gaming_Source_Gaming_MyHUD_h_15_INCLASS_NO_PURE_DECLS \
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_SPARSE_DATA
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_RPC_WRAPPERS
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyHUD(); \
 	friend struct Z_Construct_UClass_AMyHUD_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AMyHUD)
 
 
-#define Gaming_Source_Gaming_MyHUD_h_15_INCLASS \
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyHUD(); \
 	friend struct Z_Construct_UClass_AMyHUD_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AMyHUD)
 
 
-#define Gaming_Source_Gaming_MyHUD_h_15_STANDARD_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Gaming_Source_Gaming_MyHUD_h_15_ENHANCED_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD)
 
 
-#define Gaming_Source_Gaming_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET
-#define Gaming_Source_Gaming_MyHUD_h_12_PROLOG
-#define Gaming_Source_Gaming_MyHUD_h_15_GENERATED_BODY_LEGACY \
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET
+#define Gaming_Source_Gaming_Player_MyHUD_h_12_PROLOG
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_MyHUD_h_15_SPARSE_DATA \
-	Gaming_Source_Gaming_MyHUD_h_15_RPC_WRAPPERS \
-	Gaming_Source_Gaming_MyHUD_h_15_INCLASS \
-	Gaming_Source_Gaming_MyHUD_h_15_STANDARD_CONSTRUCTORS \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_SPARSE_DATA \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_RPC_WRAPPERS \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_INCLASS \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Gaming_Source_Gaming_MyHUD_h_15_GENERATED_BODY \
+#define Gaming_Source_Gaming_Player_MyHUD_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_MyHUD_h_15_SPARSE_DATA \
-	Gaming_Source_Gaming_MyHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_MyHUD_h_15_INCLASS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_MyHUD_h_15_ENHANCED_CONSTRUCTORS \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_SPARSE_DATA \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_INCLASS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Player_MyHUD_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> GAMING_API UClass* StaticClass<class AMyHUD>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Gaming_Source_Gaming_MyHUD_h
+#define CURRENT_FILE_ID Gaming_Source_Gaming_Player_MyHUD_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

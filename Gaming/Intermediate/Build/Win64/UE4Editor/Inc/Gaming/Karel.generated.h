@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMING_Karel_generated_h
 
-#define Gaming_Source_Gaming_Karel_h_16_SPARSE_DATA
-#define Gaming_Source_Gaming_Karel_h_16_RPC_WRAPPERS
-#define Gaming_Source_Gaming_Karel_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define Gaming_Source_Gaming_Karel_h_16_INCLASS_NO_PURE_DECLS \
+#define Gaming_Source_Gaming_Karel_h_18_SPARSE_DATA
+#define Gaming_Source_Gaming_Karel_h_18_RPC_WRAPPERS
+#define Gaming_Source_Gaming_Karel_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define Gaming_Source_Gaming_Karel_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAKarel(); \
 	friend struct Z_Construct_UClass_AKarel_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AKarel)
 
 
-#define Gaming_Source_Gaming_Karel_h_16_INCLASS \
+#define Gaming_Source_Gaming_Karel_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAKarel(); \
 	friend struct Z_Construct_UClass_AKarel_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AKarel)
 
 
-#define Gaming_Source_Gaming_Karel_h_16_STANDARD_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Karel_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AKarel(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AKarel) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Gaming_Source_Gaming_Karel_h_16_ENHANCED_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Karel_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AKarel(AKarel&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AKarel)
 
 
-#define Gaming_Source_Gaming_Karel_h_16_PRIVATE_PROPERTY_OFFSET
-#define Gaming_Source_Gaming_Karel_h_13_PROLOG
-#define Gaming_Source_Gaming_Karel_h_16_GENERATED_BODY_LEGACY \
+#define Gaming_Source_Gaming_Karel_h_18_PRIVATE_PROPERTY_OFFSET
+#define Gaming_Source_Gaming_Karel_h_15_PROLOG
+#define Gaming_Source_Gaming_Karel_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_Karel_h_16_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_Karel_h_16_SPARSE_DATA \
-	Gaming_Source_Gaming_Karel_h_16_RPC_WRAPPERS \
-	Gaming_Source_Gaming_Karel_h_16_INCLASS \
-	Gaming_Source_Gaming_Karel_h_16_STANDARD_CONSTRUCTORS \
+	Gaming_Source_Gaming_Karel_h_18_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Karel_h_18_SPARSE_DATA \
+	Gaming_Source_Gaming_Karel_h_18_RPC_WRAPPERS \
+	Gaming_Source_Gaming_Karel_h_18_INCLASS \
+	Gaming_Source_Gaming_Karel_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Gaming_Source_Gaming_Karel_h_16_GENERATED_BODY \
+#define Gaming_Source_Gaming_Karel_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_Karel_h_16_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_Karel_h_16_SPARSE_DATA \
-	Gaming_Source_Gaming_Karel_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_Karel_h_16_INCLASS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_Karel_h_16_ENHANCED_CONSTRUCTORS \
+	Gaming_Source_Gaming_Karel_h_18_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Karel_h_18_SPARSE_DATA \
+	Gaming_Source_Gaming_Karel_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Karel_h_18_INCLASS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Karel_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

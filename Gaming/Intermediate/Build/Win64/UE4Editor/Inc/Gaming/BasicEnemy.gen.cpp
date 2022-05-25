@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Gaming/BasicEnemy.h"
+#include "Gaming/Enemy/BasicEnemy.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,8 +42,8 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicEnemy_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "BasicEnemy.h" },
-		{ "ModuleRelativePath", "BasicEnemy.h" },
+		{ "IncludePath", "Enemy/BasicEnemy.h" },
+		{ "ModuleRelativePath", "Enemy/BasicEnemy.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABasicEnemy_Statics::StaticCppClassTypeInfo = {
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasicEnemy, 788655510);
+	IMPLEMENT_CLASS(ABasicEnemy, 1437635502);
 	template<> GAMING_API UClass* StaticClass<ABasicEnemy>()
 	{
 		return ABasicEnemy::StaticClass();

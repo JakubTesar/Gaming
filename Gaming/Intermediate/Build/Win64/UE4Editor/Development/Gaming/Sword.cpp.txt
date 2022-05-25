@@ -1,0 +1,5 @@
+E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
+E:\GIthubE\Gaming\Gaming\Source\Gaming\Items\Sword.h
+E:\GIthubE\Gaming\Gaming\Source\Gaming\Items\Item.h
+E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Item.generated.h
+E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\Sword.generated.h

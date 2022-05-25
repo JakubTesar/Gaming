@@ -4,6 +4,7 @@
 #include "Karel.h"
 
 #include "Components/CapsuleComponent.h"
+#include "Items/Sword.h"
 
 AKarel::AKarel()
 {
@@ -20,7 +21,7 @@ AKarel::AKarel()
 void AKarel::BeginPlay()
 {
 	Super::BeginPlay();
-		
+	
 }
 void AKarel::Tick(float DeltaTime)
 {

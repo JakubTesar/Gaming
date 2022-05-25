@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMING_Item_generated_h
 
-#define Gaming_Source_Gaming_Item_h_12_SPARSE_DATA
-#define Gaming_Source_Gaming_Item_h_12_RPC_WRAPPERS
-#define Gaming_Source_Gaming_Item_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Gaming_Source_Gaming_Item_h_12_INCLASS_NO_PURE_DECLS \
+#define Gaming_Source_Gaming_Items_Item_h_12_SPARSE_DATA
+#define Gaming_Source_Gaming_Items_Item_h_12_RPC_WRAPPERS
+#define Gaming_Source_Gaming_Items_Item_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Gaming_Source_Gaming_Items_Item_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAItem(); \
 	friend struct Z_Construct_UClass_AItem_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AItem)
 
 
-#define Gaming_Source_Gaming_Item_h_12_INCLASS \
+#define Gaming_Source_Gaming_Items_Item_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAItem(); \
 	friend struct Z_Construct_UClass_AItem_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AItem)
 
 
-#define Gaming_Source_Gaming_Item_h_12_STANDARD_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Items_Item_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AItem(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AItem) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Gaming_Source_Gaming_Item_h_12_ENHANCED_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Items_Item_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AItem(AItem&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AItem)
 
 
-#define Gaming_Source_Gaming_Item_h_12_PRIVATE_PROPERTY_OFFSET
-#define Gaming_Source_Gaming_Item_h_9_PROLOG
-#define Gaming_Source_Gaming_Item_h_12_GENERATED_BODY_LEGACY \
+#define Gaming_Source_Gaming_Items_Item_h_12_PRIVATE_PROPERTY_OFFSET
+#define Gaming_Source_Gaming_Items_Item_h_9_PROLOG
+#define Gaming_Source_Gaming_Items_Item_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_Item_h_12_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_Item_h_12_SPARSE_DATA \
-	Gaming_Source_Gaming_Item_h_12_RPC_WRAPPERS \
-	Gaming_Source_Gaming_Item_h_12_INCLASS \
-	Gaming_Source_Gaming_Item_h_12_STANDARD_CONSTRUCTORS \
+	Gaming_Source_Gaming_Items_Item_h_12_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Items_Item_h_12_SPARSE_DATA \
+	Gaming_Source_Gaming_Items_Item_h_12_RPC_WRAPPERS \
+	Gaming_Source_Gaming_Items_Item_h_12_INCLASS \
+	Gaming_Source_Gaming_Items_Item_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Gaming_Source_Gaming_Item_h_12_GENERATED_BODY \
+#define Gaming_Source_Gaming_Items_Item_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_Item_h_12_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_Item_h_12_SPARSE_DATA \
-	Gaming_Source_Gaming_Item_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_Item_h_12_INCLASS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_Item_h_12_ENHANCED_CONSTRUCTORS \
+	Gaming_Source_Gaming_Items_Item_h_12_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Items_Item_h_12_SPARSE_DATA \
+	Gaming_Source_Gaming_Items_Item_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Items_Item_h_12_INCLASS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Items_Item_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> GAMING_API UClass* StaticClass<class AItem>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Gaming_Source_Gaming_Item_h
+#define CURRENT_FILE_ID Gaming_Source_Gaming_Items_Item_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeKarel() {}
 	UPackage* Z_Construct_UPackage__Script_Gaming();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	GAMING_API UClass* Z_Construct_UClass_AItem_NoRegister();
 // End Cross Module References
 	void AKarel::StaticRegisterNativesAKarel()
 	{
@@ -41,6 +42,11 @@ void EmptyLinkFunctionForGeneratedCodeKarel() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArmComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArmComponent;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ShopItems_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShopItems_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ShopItems;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -73,9 +79,19 @@ void EmptyLinkFunctionForGeneratedCodeKarel() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKarel_Statics::NewProp_SpringArmComponent = { "SpringArmComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKarel, SpringArmComponent), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AKarel_Statics::NewProp_SpringArmComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKarel_Statics::NewProp_SpringArmComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems_Inner = { "ShopItems", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems_MetaData[] = {
+		{ "Category", "Karel" },
+		{ "ModuleRelativePath", "Karel.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems = { "ShopItems", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKarel, ShopItems), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKarel_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKarel_Statics::NewProp_CapsuleComponent2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKarel_Statics::NewProp_SpringArmComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKarel_Statics::NewProp_ShopItems,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AKarel_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AKarel>::IsAbstract,
@@ -104,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeKarel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AKarel, 128643125);
+	IMPLEMENT_CLASS(AKarel, 2610130245);
 	template<> GAMING_API UClass* StaticClass<AKarel>()
 	{
 		return AKarel::StaticClass();

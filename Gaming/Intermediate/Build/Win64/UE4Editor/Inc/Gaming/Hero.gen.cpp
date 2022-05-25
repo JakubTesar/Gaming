@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Gaming/Hero.h"
+#include "Gaming/Player/Hero.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -89,15 +89,15 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "Hero.h" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "IncludePath", "Player/Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_CameraComponent_MetaData[] = {
 		{ "Category", "Hero" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_CameraComponent = { "CameraComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_CameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_CameraComponent_MetaData)) };
@@ -105,28 +105,28 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent_MetaData[] = {
 		{ "Category", "Hero" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent = { "SpringArmComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, SpringArmComponent), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_SpringArmComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_HP_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, HP), METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_HP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_HP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_DMG_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_DMG = { "DMG", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, DMG), METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_DMG_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_DMG_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	void Z_Construct_UClass_AHero_Statics::NewProp_bInventoryShow_SetBit(void* Obj)
@@ -138,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget_MetaData[] = {
 		{ "Category", "Hero" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget = { "InventoryWidget", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, InventoryWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_InventoryWidget_MetaData)) };
@@ -146,28 +146,28 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_Inventory_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_Inventory = { "Inventory", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, Inventory), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_Inventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_Inventory_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_InventorySlots_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_InventorySlots = { "InventorySlots", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, InventorySlots), METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_InventorySlots_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_InventorySlots_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot = { "WeaponSlot", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, WeaponSlot), Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_WeaponSlot_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHero_Statics::NewProp_MyHUD_MetaData[] = {
 		{ "Category", "Hero" },
-		{ "ModuleRelativePath", "Hero.h" },
+		{ "ModuleRelativePath", "Player/Hero.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHero_Statics::NewProp_MyHUD = { "MyHUD", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHero, MyHUD), Z_Construct_UClass_AHUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHero_Statics::NewProp_MyHUD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AHero_Statics::NewProp_MyHUD_MetaData)) };
@@ -211,7 +211,7 @@ void EmptyLinkFunctionForGeneratedCodeHero() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHero, 202469785);
+	IMPLEMENT_CLASS(AHero, 1064974190);
 	template<> GAMING_API UClass* StaticClass<AHero>()
 	{
 		return AHero::StaticClass();

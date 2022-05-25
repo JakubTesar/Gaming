@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "NPC.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Items/Item.h"
+#include "Items/Sword.h"
 #include "Karel.generated.h"
 
 /**
@@ -21,6 +23,10 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	USpringArmComponent* SpringArmComponent;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	TArray<AItem*> ShopItems;
+
 	AKarel();
 	
 protected:

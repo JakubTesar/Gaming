@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Gaming/Item.h"
+#include "Gaming/Items/Item.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -51,14 +51,14 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "Item.h" },
-		{ "ModuleRelativePath", "Item.h" },
+		{ "IncludePath", "Items/Item.h" },
+		{ "ModuleRelativePath", "Items/Item.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_Texture2D_MetaData[] = {
 		{ "Category", "Item" },
-		{ "ModuleRelativePath", "Item.h" },
+		{ "ModuleRelativePath", "Items/Item.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_Texture2D = { "Texture2D", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, Texture2D), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_Texture2D_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_Texture2D_MetaData)) };
@@ -66,7 +66,7 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_StaticMeshComponent_MetaData[] = {
 		{ "Category", "Item" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Item.h" },
+		{ "ModuleRelativePath", "Items/Item.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_StaticMeshComponent = { "StaticMeshComponent", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, StaticMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_StaticMeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_StaticMeshComponent_MetaData)) };
@@ -101,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AItem, 4147675646);
+	IMPLEMENT_CLASS(AItem, 2662429980);
 	template<> GAMING_API UClass* StaticClass<AItem>()
 	{
 		return AItem::StaticClass();

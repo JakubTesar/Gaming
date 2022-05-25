@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "Gaming/MyHUD.h"
+#include "Gaming/Player/MyHUD.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,8 +42,8 @@ void EmptyLinkFunctionForGeneratedCodeMyHUD() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyHUD_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Rendering Actor Input Replication" },
-		{ "IncludePath", "MyHUD.h" },
-		{ "ModuleRelativePath", "MyHUD.h" },
+		{ "IncludePath", "Player/MyHUD.h" },
+		{ "ModuleRelativePath", "Player/MyHUD.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeMyHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyHUD, 705027277);
+	IMPLEMENT_CLASS(AMyHUD, 1938842640);
 	template<> GAMING_API UClass* StaticClass<AMyHUD>()
 	{
 		return AMyHUD::StaticClass();
