@@ -1,11 +1,11 @@
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\Enemy\BasicEnemy.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming/NPC.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\NPC.generated.h
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\BasicEnemy.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\Enemy\BasicEnemy.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming/NPC.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\NPC.generated.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Inc\Gaming\BasicEnemy.generated.h

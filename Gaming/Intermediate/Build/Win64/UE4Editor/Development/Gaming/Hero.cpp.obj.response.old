@@ -265,7 +265,7 @@
 /FI"E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\GamingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Yu"E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\GamingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\GamingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\GIthubE\Gaming\Gaming\Source\Gaming\Hero.cpp"
+"E:\GIthubE\Gaming\Gaming\Source\Gaming\Player\Hero.cpp"
 /FI"E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h"
 /Fo"E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Hero.cpp.obj"
 /TP
