@@ -21,10 +21,8 @@ AKarel::AKarel()
 void AKarel::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 void AKarel::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	
 }

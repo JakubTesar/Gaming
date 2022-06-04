@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMING_BasicEnemy_generated_h
 
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_SPARSE_DATA
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_RPC_WRAPPERS
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_INCLASS_NO_PURE_DECLS \
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_SPARSE_DATA
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_RPC_WRAPPERS
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasicEnemy(); \
 	friend struct Z_Construct_UClass_ABasicEnemy_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABasicEnemy)
 
 
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_INCLASS \
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesABasicEnemy(); \
 	friend struct Z_Construct_UClass_ABasicEnemy_Statics; \
@@ -34,9 +34,9 @@ public: \
 	DECLARE_SERIALIZER(ABasicEnemy)
 
 
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_STANDARD_CONSTRUCTORS \
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABasicEnemy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ABasicEnemy(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABasicEnemy) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABasicEnemy); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABasicEnemy); \
@@ -47,9 +47,7 @@ private: \
 public:
 
 
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABasicEnemy() { }; \
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABasicEnemy(ABasicEnemy&&); \
@@ -60,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABasicEnemy)
 
 
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_PRIVATE_PROPERTY_OFFSET
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_13_PROLOG
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_GENERATED_BODY_LEGACY \
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_PRIVATE_PROPERTY_OFFSET
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_14_PROLOG
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_SPARSE_DATA \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_RPC_WRAPPERS \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_INCLASS \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_STANDARD_CONSTRUCTORS \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_SPARSE_DATA \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_RPC_WRAPPERS \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_INCLASS \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_GENERATED_BODY \
+#define Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_SPARSE_DATA \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_INCLASS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_Enemy_BasicEnemy_h_16_ENHANCED_CONSTRUCTORS \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_SPARSE_DATA \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_INCLASS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_Enemy_BasicEnemy_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

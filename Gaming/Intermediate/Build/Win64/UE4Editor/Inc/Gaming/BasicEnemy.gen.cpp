@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 	GAMING_API UClass* Z_Construct_UClass_ABasicEnemy();
 	GAMING_API UClass* Z_Construct_UClass_ANPC();
 	UPackage* Z_Construct_UPackage__Script_Gaming();
+	AIMODULE_API UClass* Z_Construct_UClass_UAIPerceptionComponent_NoRegister();
 // End Cross Module References
 	void ABasicEnemy::StaticRegisterNativesABasicEnemy()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIPerceptionComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AIPerceptionComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +52,17 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		{ "ModuleRelativePath", "Enemy/BasicEnemy.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicEnemy_Statics::NewProp_AIPerceptionComponent_MetaData[] = {
+		{ "Category", "BasicEnemy" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Enemy/BasicEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABasicEnemy_Statics::NewProp_AIPerceptionComponent = { "AIPerceptionComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasicEnemy, AIPerceptionComponent), Z_Construct_UClass_UAIPerceptionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABasicEnemy_Statics::NewProp_AIPerceptionComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABasicEnemy_Statics::NewProp_AIPerceptionComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABasicEnemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasicEnemy_Statics::NewProp_AIPerceptionComponent,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABasicEnemy_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABasicEnemy>::IsAbstract,
 	};
@@ -55,11 +72,11 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ABasicEnemy_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABasicEnemy_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABasicEnemy_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABasicEnemy_Statics::Class_MetaDataParams))
@@ -73,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasicEnemy, 1437635502);
+	IMPLEMENT_CLASS(ABasicEnemy, 892550992);
 	template<> GAMING_API UClass* StaticClass<ABasicEnemy>()
 	{
 		return ABasicEnemy::StaticClass();
