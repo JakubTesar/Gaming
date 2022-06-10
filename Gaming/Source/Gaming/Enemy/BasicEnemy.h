@@ -3,9 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Gaming/EnemyAIController.h"
 #include "Gaming/NPC.h"
 #include "Perception/AIPerceptionComponent.h"
-
+#include "Perception/AISenseConfig_Sight.h"
+//#include "EnemyAIController.generated.h"
 #include "BasicEnemy.generated.h"
 
 /**
@@ -18,6 +20,16 @@ class GAMING_API ABasicEnemy : public ANPC
 public:
 	UPROPERTY(EditAnywhere)
 	UAIPerceptionComponent* AIPerceptionComponent;
+
+	UPROPERTY(EditAnywhere)
+	UAISenseConfig_Sight* SightConfig;
+	
+	UPROPERTY(EditAnywhere)
+	AEnemyAIController* EAIController;
+
+	UPROPERTY(EditAnywhere)
+	TArray<AActor*> FoundActors;
+	
 	// Sets default values for this character's properties
 	ABasicEnemy();
 
@@ -31,5 +43,7 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	
+	void PrintSmthk(const TArray<AActor*>&);
 };
+
+
