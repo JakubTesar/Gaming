@@ -1,8 +1,13 @@
 {
 	"SourceFiles": [
-		"E:\\GIthubE\\Gaming\\Gaming\\Source\\Gaming\\Gaming.Build.cs",
-		"E:\\GIthubE\\Gaming\\Gaming\\Source\\Gaming.Target.cs",
-		"E:\\GIthubE\\Gaming\\Gaming\\Source\\GamingEditor.Target.cs"
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Source\\Gaming\\Gaming.Build.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Source\\Gaming.Target.cs",
+		"C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Source\\GamingEditor.Target.cs"
 	],
-	"EngineVersion": "4.27.2"
+	"EngineVersion": "4.27.1"
 }

@@ -1,2 +1,2 @@
-E:\GIthubE\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
-E:\GIthubE\Gaming\Gaming\Source\Gaming\Gaming.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Intermediate\Build\Win64\UE4Editor\Development\Gaming\Definitions.Gaming.h
+C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Source\Gaming\Gaming.h
