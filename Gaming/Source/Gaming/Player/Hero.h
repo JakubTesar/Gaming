@@ -14,7 +14,7 @@ UCLASS()
 class GAMING_API AHero : public ACharacter
 {
 	GENERATED_BODY()
-	
+
 
 public:
 	UPROPERTY(EditAnywhere)
@@ -25,12 +25,12 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float HP;
-	
+
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float DMG;
-	
+
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
-    bool bInventoryShow;
+	bool bInventoryShow;
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	UUserWidget* InventoryWidget;
@@ -46,7 +46,7 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	AHUD* MyHUD;
-	
+
 	// Sets default values for this character's properties
 	AHero();
 
@@ -54,16 +54,16 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	
+
 	void MoveForward(float Direction);
-	void MoveSideways(float Direction);	
-	void LeftClick();	
-	void EquipWeapon();	
+	void MoveSideways(float Direction);
+	void LeftClick();
+	void EquipWeapon();
 	TArray<FHitResult> HitResults;
 };

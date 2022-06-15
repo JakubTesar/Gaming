@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GAMING_EnemyAIController_generated_h
 
-#define Gaming_Source_Gaming_EnemyAIController_h_15_SPARSE_DATA
-#define Gaming_Source_Gaming_EnemyAIController_h_15_RPC_WRAPPERS
-#define Gaming_Source_Gaming_EnemyAIController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Gaming_Source_Gaming_EnemyAIController_h_15_INCLASS_NO_PURE_DECLS \
+#define Gaming_Source_Gaming_EnemyAIController_h_17_SPARSE_DATA
+#define Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS
+#define Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define Gaming_Source_Gaming_EnemyAIController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
 	friend struct Z_Construct_UClass_AEnemyAIController_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyAIController)
 
 
-#define Gaming_Source_Gaming_EnemyAIController_h_15_INCLASS \
+#define Gaming_Source_Gaming_EnemyAIController_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
 	friend struct Z_Construct_UClass_AEnemyAIController_Statics; \
@@ -34,9 +34,9 @@ public: \
 	DECLARE_SERIALIZER(AEnemyAIController)
 
 
-#define Gaming_Source_Gaming_EnemyAIController_h_15_STANDARD_CONSTRUCTORS \
+#define Gaming_Source_Gaming_EnemyAIController_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEnemyAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AEnemyAIController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyAIController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemyAIController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAIController); \
@@ -47,9 +47,7 @@ private: \
 public:
 
 
-#define Gaming_Source_Gaming_EnemyAIController_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEnemyAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define Gaming_Source_Gaming_EnemyAIController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemyAIController(AEnemyAIController&&); \
@@ -57,31 +55,31 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemyAIController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAIController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyAIController)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyAIController)
 
 
-#define Gaming_Source_Gaming_EnemyAIController_h_15_PRIVATE_PROPERTY_OFFSET
-#define Gaming_Source_Gaming_EnemyAIController_h_12_PROLOG
-#define Gaming_Source_Gaming_EnemyAIController_h_15_GENERATED_BODY_LEGACY \
+#define Gaming_Source_Gaming_EnemyAIController_h_17_PRIVATE_PROPERTY_OFFSET
+#define Gaming_Source_Gaming_EnemyAIController_h_14_PROLOG
+#define Gaming_Source_Gaming_EnemyAIController_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_EnemyAIController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_EnemyAIController_h_15_SPARSE_DATA \
-	Gaming_Source_Gaming_EnemyAIController_h_15_RPC_WRAPPERS \
-	Gaming_Source_Gaming_EnemyAIController_h_15_INCLASS \
-	Gaming_Source_Gaming_EnemyAIController_h_15_STANDARD_CONSTRUCTORS \
+	Gaming_Source_Gaming_EnemyAIController_h_17_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_EnemyAIController_h_17_SPARSE_DATA \
+	Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS \
+	Gaming_Source_Gaming_EnemyAIController_h_17_INCLASS \
+	Gaming_Source_Gaming_EnemyAIController_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Gaming_Source_Gaming_EnemyAIController_h_15_GENERATED_BODY \
+#define Gaming_Source_Gaming_EnemyAIController_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Gaming_Source_Gaming_EnemyAIController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Gaming_Source_Gaming_EnemyAIController_h_15_SPARSE_DATA \
-	Gaming_Source_Gaming_EnemyAIController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_EnemyAIController_h_15_INCLASS_NO_PURE_DECLS \
-	Gaming_Source_Gaming_EnemyAIController_h_15_ENHANCED_CONSTRUCTORS \
+	Gaming_Source_Gaming_EnemyAIController_h_17_PRIVATE_PROPERTY_OFFSET \
+	Gaming_Source_Gaming_EnemyAIController_h_17_SPARSE_DATA \
+	Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_EnemyAIController_h_17_INCLASS_NO_PURE_DECLS \
+	Gaming_Source_Gaming_EnemyAIController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

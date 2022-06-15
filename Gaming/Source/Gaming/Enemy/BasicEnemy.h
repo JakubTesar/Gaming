@@ -18,17 +18,6 @@ class GAMING_API ABasicEnemy : public ANPC
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(EditAnywhere)
-	UAIPerceptionComponent* AIPerceptionComponent;
-
-	UPROPERTY(EditAnywhere)
-	UAISenseConfig_Sight* SightConfig;
-	
-	UPROPERTY(EditAnywhere)
-	AEnemyAIController* EAIController;
-
-	UPROPERTY(EditAnywhere)
-	TArray<AActor*> FoundActors;
 	
 	// Sets default values for this character's properties
 	ABasicEnemy();
@@ -43,7 +32,6 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	void PrintSmthk(const TArray<AActor*>&);
 };
 
 

@@ -36,8 +36,8 @@ void AHero::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 	FVector Location = CameraComponent->GetComponentLocation() + (CameraComponent->GetForwardVector() * 100);
 	FVector ForwardVector = CameraComponent->GetForwardVector() * 10000;
-	DrawDebugLine(GetWorld(), Location, ForwardVector, FColor::Blue, false
-		,-1, 0,5);
+	//DrawDebugLine(GetWorld(), Location, ForwardVector, FColor::Blue, false
+	//	,-1, 0,5);
 	bool Result = GetWorld()->LineTraceMultiByChannel(
 		HitResults, Location, ForwardVector, ECC_GameTraceChannel1);
 }

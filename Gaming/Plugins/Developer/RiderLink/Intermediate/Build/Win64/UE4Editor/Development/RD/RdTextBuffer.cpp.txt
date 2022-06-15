@@ -1,2 +1,2 @@
-C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
-C:\Users\NTBK\Desktop\GitHub\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h

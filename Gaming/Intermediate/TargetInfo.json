@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Gaming",
-			"Path": "C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Source\\Gaming.Target.cs",
+			"Path": "E:\\GIthubE\\Gaming\\Gaming\\Source\\Gaming.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "GamingEditor",
-			"Path": "C:\\Users\\NTBK\\Desktop\\GitHub\\Gaming\\Gaming\\Source\\GamingEditor.Target.cs",
+			"Path": "E:\\GIthubE\\Gaming\\Gaming\\Source\\GamingEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
