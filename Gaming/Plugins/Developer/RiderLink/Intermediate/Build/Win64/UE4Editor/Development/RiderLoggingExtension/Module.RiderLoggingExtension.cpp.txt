@@ -1,5 +1,6 @@
 E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLoggingExtension\Definitions.h
-E:/GIthubE/Gaming/Gaming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.cpp
+E:/GIthubE/Gaming/Gaming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.cpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderLoggingExtension.hpp
 E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderOutputDevice.hpp
 E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
 E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\CoreTypes.h
@@ -277,4 +278,226 @@ E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateSig
 E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
 E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
 E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/LifetimeDefinition.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xatomic.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\map
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xtimec.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\atomic
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xthreads.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ostream
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ios
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocnum
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\streambuf
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocale
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xfacet
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\string
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_map
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xhash
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\list
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xbit_ops.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public\BlueprintProvider.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\sstream
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\istream
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\future
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\condition_variable
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltasks.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplwin.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplinterface.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltaskscheduler.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\pplcancellation_token.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\locale
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocbuf
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmes
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmon
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\xloctime
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\codecvt
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_set
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\regex
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+E:\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE\queue
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/Regex.h
+E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
+E:/GIthubE/Gaming/Gaming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.cpp
 E:\Unreal Engine\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceRedirector.h

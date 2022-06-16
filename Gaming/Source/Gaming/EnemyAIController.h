@@ -24,8 +24,10 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	TArray<AActor*> FoundActors;
-	
 
+	UFUNCTION()
+	void SenseStuff(AActor* Actor, FAIStimulus Stimulus);
+	
 	// Sets default values for this character's properties
 	AEnemyAIController();
 
@@ -38,5 +40,4 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
-	void SenseStuff(const TArray<AActor*>&);
 };

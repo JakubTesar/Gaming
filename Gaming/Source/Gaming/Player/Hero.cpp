@@ -4,6 +4,7 @@
 #include "Hero.h"
 
 #include "DrawDebugHelpers.h"
+#include "MySaveGame.h"
 #include "Gaming/Enemy/BasicEnemy.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -73,4 +74,26 @@ void AHero::LeftClick(){
 void AHero::EquipWeapon()
 {
 
+}
+
+void AHero::SavePosition()
+{
+	if (UMySaveGame* SaveGameInstance = Cast<UMySaveGame>(UGameplayStatics::CreateSaveGameObject(UMySaveGame::StaticClass())))
+	{
+		SaveGameInstance->PlayerPosition = GetActorLocation();
+		
+		if (UGameplayStatics::SaveGameToSlot(SaveGameInstance, "Slot0", 0))
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Game saved!"));
+		}
+	}
+}
+
+void AHero::LoadPosition()
+{
+	if (const UMySaveGame* LoadedGame = Cast<UMySaveGame>(UGameplayStatics::LoadGameFromSlot("Slot0", 0)))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Game loaded!"));
+		SetActorLocation(LoadedGame->PlayerPosition);
+	}
 }

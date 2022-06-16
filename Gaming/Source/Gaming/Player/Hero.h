@@ -65,5 +65,7 @@ public:
 	void MoveSideways(float Direction);
 	void LeftClick();
 	void EquipWeapon();
+	void SavePosition();
+	void LoadPosition();
 	TArray<FHitResult> HitResults;
 };

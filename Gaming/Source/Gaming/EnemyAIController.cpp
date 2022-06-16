@@ -8,22 +8,32 @@
 
 AEnemyAIController::AEnemyAIController()
 {
-	AIPerceptionComponent = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception Component"));
-	//EAIController = CreateDefaultSubobject<AEnemyAIController>(TEXT("EnemyAIController"));
-	SightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
+	//AIPerceptionComponent = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception Component"));
+	//SightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
 
-	SightConfig->SightRadius = 500.0f;
-	SightConfig->LoseSightRadius = (500.0f + 20.0f);
-	SightConfig->PeripheralVisionAngleDegrees = 90.0f;
+	//SightConfig->SightRadius = 500.0f;
+	//SightConfig->LoseSightRadius = (500.0f + 20.0f);
+	//SightConfig->PeripheralVisionAngleDegrees = 90.0f;
+	//SightConfig->DetectionByAffiliation.bDetectEnemies = true;
+	//SightConfig->DetectionByAffiliation.bDetectNeutrals = true;
+	//SightConfig->DetectionByAffiliation.bDetectFriendlies = true;
+	//AIPerceptionComponent->ConfigureSense(*SightConfig);
+	//AIPerceptionComponent->SetDominantSense(SightConfig->GetSenseImplementation());
+	//AIPerceptionComponent->OnPerceptionUpdated.AddDynamic(this,&AEnemyAIController::SenseStuff);
+	//UAIPerceptionSystem::RegisterPerceptionStimuliSource(this, SightConfig->GetSenseImplementation(), GetPawn());
+	
+	PerceptionComponent = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("Perception"));
+	SightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("SR Sight Config"));
+
+	SightConfig->SightRadius = 640.0f;
+	SightConfig->PeripheralVisionAngleDegrees = 142.0f;
 	SightConfig->DetectionByAffiliation.bDetectEnemies = true;
-	SightConfig->DetectionByAffiliation.bDetectNeutrals = true;
 	SightConfig->DetectionByAffiliation.bDetectFriendlies = true;
+	SightConfig->DetectionByAffiliation.bDetectNeutrals = true;
+	SightConfig->SetMaxAge(0);
 	
-	AIPerceptionComponent->ConfigureSense(*SightConfig);
-	AIPerceptionComponent->SetDominantSense(SightConfig->GetSenseImplementation());
-	
-	AIPerceptionComponent->OnPerceptionUpdated.AddDynamic(this,&AEnemyAIController::SenseStuff);
-	UAIPerceptionSystem::RegisterPerceptionStimuliSource(this, SightConfig->GetSenseImplementation(), GetPawn());
+	PerceptionComponent->ConfigureSense(*SightConfig);
+	PerceptionComponent->SetDominantSense(SightConfig->GetSenseImplementation());
 	//AIPerceptionComponent->OnPerceptionUpdated.Add;
 	PrimaryActorTick.bCanEverTick = true;
 }
@@ -31,9 +41,8 @@ AEnemyAIController::AEnemyAIController()
 void AEnemyAIController::BeginPlay()
 {
 	Super::BeginPlay();
-	APawn* Ahoj = GetPawn();
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, Ahoj->GetName());
-	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "I see you!");
+
+	PerceptionComponent->OnTargetPerceptionUpdated.AddDynamic(this, &AEnemyAIController::SenseStuff);
 }
 
 void AEnemyAIController::Tick(float DeltaTime)
@@ -41,7 +50,7 @@ void AEnemyAIController::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AEnemyAIController::SenseStuff(const TArray<AActor*>& Actors)
+void AEnemyAIController::SenseStuff(AActor* Actor, FAIStimulus Stimulus)
 {
 	APawn* Ahoj2 = GetPawn();
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, Ahoj2->GetName());

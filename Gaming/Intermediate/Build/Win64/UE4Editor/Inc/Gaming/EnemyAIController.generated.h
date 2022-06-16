@@ -8,14 +8,24 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+struct FAIStimulus;
 #ifdef GAMING_EnemyAIController_generated_h
 #error "EnemyAIController.generated.h already included, missing '#pragma once' in EnemyAIController.h"
 #endif
 #define GAMING_EnemyAIController_generated_h
 
 #define Gaming_Source_Gaming_EnemyAIController_h_17_SPARSE_DATA
-#define Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS
-#define Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSenseStuff);
+
+
+#define Gaming_Source_Gaming_EnemyAIController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSenseStuff);
+
+
 #define Gaming_Source_Gaming_EnemyAIController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \

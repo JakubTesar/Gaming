@@ -33,7 +33,6 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLoggingExtension\RiderLoggingExtension.cpp.obj"
 "E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLoggingExtension\Module.RiderLoggingExtension.cpp.obj"
 "E:\GIthubE\Gaming\Gaming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLoggingExtension\Default.rc2.res"
 "E:\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
